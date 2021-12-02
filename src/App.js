@@ -1,24 +1,45 @@
+import React, { Component } from "react";
+import Button from "./components/Button";
+import "./App.css";
+export default class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      count: 0
+    };
+  }
 
-import './App.css';
+  state = {
+    count: 0
+  };
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  incrementCount = () => {
+    this.setState({
+      count: this.state.count + 1
+    });
+  };
+
+  decrementCount = () => {
+    this.setState({
+      count: this.state.count - 1
+    });
+  };
+
+  render() {
+    return (
+      <div className="app">
+        <h1>Counter App</h1>
+        <div>
+         
+          <input
+          type="text"
+          value={this.state.count}
+          onChange={(e) => this.setState({ count: Number(e.target.value) ? Number(e.target.value) : this.state.count })}
+          />
+          <Button title={"-"} action={this.decrementCount} />
+          <Button title={"+"} action={this.incrementCount} />
+        </div>
+      </div>
+    );
+  }
 }
-
-export default App;

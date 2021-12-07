@@ -1,0 +1,31 @@
+@import "../Variables/Variables.scss";
+li, a, button {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.nav_links{
+    list-style:none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a {
+    color:$navLinksColor;
+}
+
+.nav_links > li > a.active, .nav_links > li > a:focus{
+    border-bottom: 4px solid $borderBottom;
+    color:$blackColor;
+}

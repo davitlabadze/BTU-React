@@ -1,0 +1,23 @@
+button {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+  width: 102px;
+  height: 51px;
+  border: 1px solid #6C63FF;
+  border-radius: 2px;
+  padding: 16px, 30px, 16px, 30px;
+  margin: 0px 16px;
+  color: #6C63FF;
+  background: transparent;
+}
+
+.getButton {
+  background: #6C63FF;
+  color: #fff;
+}
+/*# sourceMappingURL=Button.css.map */

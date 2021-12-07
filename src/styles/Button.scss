@@ -1,0 +1,26 @@
+@import "../Variables/Variables.scss";
+
+button {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+
+    width: 102px;
+    height: 51px;
+    border: 1px solid $btnColor;
+    border-radius: 2px;
+    padding: 16px, 30px, 16px, 30px; 
+    margin: 0px 16px;
+    color: $btnColor;
+    background: transparent;
+
+}
+
+.getButton{
+    background: $btnColor;
+    color: $white;
+}

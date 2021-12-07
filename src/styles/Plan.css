@@ -1,0 +1,133 @@
+.planContainer {
+  margin: 90px 20%;
+  height: 502px;
+  width: 60%;
+  height: 477px;
+}
+
+.planContainer h2 {
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+
+.plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 90px 5%;
+}
+
+.box {
+  height: 421px;
+  width: 363px;
+  top: 40.5px;
+  border-radius: 2px;
+  padding: 46px, 88px, 46px, 88px;
+  background: #ECEBFF4D;
+  text-align: center;
+}
+
+.box p {
+  color: #717082;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.box p:nth-child(1) {
+  margin-top: 46px;
+}
+
+.box p:nth-child(2) {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.box p:nth-child(4) {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.box p:nth-child(5) {
+  margin-bottom: 38px;
+}
+
+.box strong {
+  font-family: Open Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #2F2E41;
+}
+
+.box1 {
+  height: 502px;
+  width: 363px;
+  left: 408px;
+  top: 0px;
+  margin: 45px 45px;
+  border-radius: 2px;
+  padding: 70px, 88px, 70px, 88px;
+  background: #6C63FF;
+  text-align: center;
+}
+
+.box1 p {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.box1 strong {
+  font-family: Open Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #fff;
+}
+
+.box1 p:nth-child(1) {
+  margin-top: 46px;
+}
+
+.box1 p:nth-child(2) {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.box1 p:nth-child(4) {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.box1 p:nth-child(5) {
+  margin-bottom: 38px;
+}
+
+.box1 button {
+  background: #fff;
+  margin-top: 38px;
+}
+/*# sourceMappingURL=Plan.css.map */

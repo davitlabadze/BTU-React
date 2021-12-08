@@ -1,0 +1,46 @@
+.headText {
+  font-family: Playfair Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+
+.block {
+  height: 422px;
+  width: 363.3333435058594px;
+  left: 816.6666870117188px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.block h2 {
+  font-family: Open Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -1px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.block p {
+  color: #9893A3;
+  height: 78px;
+  width: 363.3333435058594px;
+  left: 0px;
+  top: 38px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 26px;
+}
+/*# sourceMappingURL=Blog.css.map */

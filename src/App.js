@@ -1,7 +1,7 @@
-// import Header from './components/Navbar.js';
 import Header from "./components/Header";
 import Section from "./components/Section";
 import Plan from "./components/Plan";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Section />
       <Plan />
+      <Blog />
 
     </div>
   );

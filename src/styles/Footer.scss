@@ -1,0 +1,40 @@
+
+footer {
+    background: #ECEBFF99;
+}
+
+footer div {
+    width: 150px;
+    height: 200px;
+}
+
+footer h4{
+    //styleName: Body title;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    margin-bottom: 20px;
+}
+footer p {
+    color: #717082;
+    margin:8px 0px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+}
+
+.icon {
+    cursor: pointer;
+    margin-right: 2px;
+}

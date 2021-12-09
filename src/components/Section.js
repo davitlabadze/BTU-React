@@ -1,9 +1,9 @@
 import React from 'react'
 import '../styles/Section.css'
-import Hero from '../img/hero.svg'
-import Hero2 from '../img/hero2.svg'
-import Hero3 from '../img/hero3.svg'
-import Hero4 from '../img/hero4.svg'
+import Hero from '../img/section/hero.svg'
+import Hero2 from '../img/section/hero2.svg'
+import Hero3 from '../img/section/hero3.svg'
+import Hero4 from '../img/section/hero4.svg'
 
 
 function Section() {

@@ -9,7 +9,7 @@ function Footer() {
         <div >
             <footer>
               <section >
-                    {/* <div className='footer'> */}
+                    <div className='foo'>
                     <div >
                         <h4>Product</h4>
                         <p>How it works</p>
@@ -34,13 +34,13 @@ function Footer() {
                         <p></p>
                     </div>
                     <div>
-                        <h4>Contact us</h4>
+                        <h4>Get in touch</h4>
                         <img src={Fb} className="icon" alt="Facebook icon" />
                         <img src={Twitter} className="icon" alt="Twitter icon" />
                         <img src={Linkdin} className="icon" alt="Linkdin icon" />
                         {/* here icon */}
                     </div>
-                  {/* </div> */}
+                  </div>
               </section>
             </footer>
         </div>

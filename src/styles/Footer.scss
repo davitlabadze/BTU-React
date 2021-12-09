@@ -1,14 +1,27 @@
 
 footer {
     background: #ECEBFF99;
+    height: 600px;
+ 
+}
+.foo {
+    height: 212.5460662841797px;
+    width: 1200px;
+    left: 270px;
+    display: flex;
+    transform: translate(11%,50%);
+    margin-left: 30px; 
 }
 
-footer div {
-    width: 150px;
-    height: 200px;
+.foo div {
+    width: 265px;
+    height: 500;
 }
+
+
 
 footer h4{
+   
     font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
@@ -16,7 +29,7 @@ footer h4{
     line-height: 24px;
     letter-spacing: 0px;
     text-align: left;
-    margin-bottom: 20px;
+
 }
 footer p {
     color: #717082;
@@ -32,5 +45,5 @@ footer p {
 
 .icon {
     cursor: pointer;
-    margin-right: 2px;
+    margin-right: 5px;
 }

@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AACA,OAAO,CAAC,oHAAI",
     "sources": [
         "styleColor.scss"
     ],

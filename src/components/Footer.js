@@ -3,6 +3,7 @@ import '../styles/Footer.css'
 import Fb from '../img/footer/fbicon.svg'
 import Twitter from '../img/footer/twittericon.svg'
 import Linkdin from '../img/footer/linkdinicon.svg'
+import Logo from '../img/fusely.svg'
 
 function Footer() {
     return (
@@ -38,10 +39,13 @@ function Footer() {
                         <img src={Fb} className="icon" alt="Facebook icon" />
                         <img src={Twitter} className="icon" alt="Twitter icon" />
                         <img src={Linkdin} className="icon" alt="Linkdin icon" />
-                        {/* here icon */}
                     </div>
                   </div>
               </section>
+              <div className='footerBottomInfo'>
+              <img src={Logo} className="logo" alt="fusely logo" />
+              <h6>© Fusely 2021. All rights reserved.</h6>
+              </div>
             </footer>
         </div>
     )

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Playfair+Display:wght@700&display=swap");
 footer {
   background: #ECEBFF99;
   height: 600px;
@@ -45,5 +46,30 @@ footer p {
 .icon {
   cursor: pointer;
   margin-right: 5px;
+}
+
+.footerBottomInfo {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 10%;
+}
+
+.footerBottomInfo h6 {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9893A3;
 }
 /*# sourceMappingURL=Footer.css.map */

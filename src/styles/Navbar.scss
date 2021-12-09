@@ -23,10 +23,10 @@ li, a, button {
 }
 
 .nav_links li a {
-    color:$navLinksColor;
+    color:$natural300;
 }
 
 .nav_links > li > a.active, .nav_links > li > a:focus{
-    border-bottom: 4px solid $borderBottom;
-    color:$blackColor;
+    border-bottom: 4px solid $Primary300;
+    color:$natural500;
 }

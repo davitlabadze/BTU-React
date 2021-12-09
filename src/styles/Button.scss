@@ -1,4 +1,5 @@
-@import "../Variables/Variables.scss";
+@import "../Variables/styleColor.scss";
+
 
 button {
     font-family: Open Sans;
@@ -11,16 +12,16 @@ button {
 
     width: 102px;
     height: 51px;
-    border: 1px solid $btnColor;
+    border: 1px solid $primary400;
     border-radius: 2px;
     padding: 16px, 30px, 16px, 30px; 
     margin-right:16px;
-    color: $btnColor;
+    color: $primary400;
     background: transparent;
 
 }
 
 .getButton{
-    background: $btnColor;
-    color: $white;
+    background: $primary400;
+    color: $natural100;
 }

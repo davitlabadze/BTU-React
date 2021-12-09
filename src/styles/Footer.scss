@@ -1,6 +1,7 @@
+@import "../Variables/styleColor.scss";
 
 footer {
-    background: #ECEBFF99;
+    background:$footerColor;
     height: 600px;
  
 }
@@ -32,7 +33,7 @@ footer h4{
 
 }
 footer p {
-    color: #717082;
+    color: $natural400;
     margin:8px 0px;
     font-family: Open Sans;
     font-size: 16px;

@@ -1,5 +1,7 @@
 ## The app looks like
 ![App](appscreen/app.svg)
+
+***NOTE: responsive only at 1920x1080*** 
 ## Install and run
 1. Download ZIP or Clone.
 2. Run the comment `npm i`

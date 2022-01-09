@@ -1,3 +1,22 @@
+:root {
+  --grass: rgb(209, 241, 209);
+  --fire: rgb(241, 209, 179);
+  --water: rgb(190, 219, 236);
+  --bug: rgb(248, 218, 162);
+  --electric: rgb(238, 238, 174);
+  --poison: rgb(233, 181, 233);
+  --fairy: rgb(240, 201, 170);
+  --ground: rgb(104, 92, 92);
+  --fighting: rgb(228, 153, 102);
+  --psychic: rgb(226, 218, 114);
+  --rock: rgb(149, 149, 149);
+  --ghost: rgba(167, 56, 167, 0.835);
+  --ice: rgb(85, 210, 214);
+  --dragon: rgb(30, 74, 216);
+  --dark: rgb(61, 61, 61);
+  --steel: rgb(195, 195, 195);
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +54,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.thumb-container {
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+}
+
+.grass {
+  background: var(--grass) !important;
+}
+.fire {
+  background: var(--fire) !important;
+}
+
+.water {
+  background: var(--water) !important;
+}
+.bug {
+  background: var(--bug) !important;
+}
+.electric {
+  background: var(--electric) !important;
+}
+
+.poison {
+  background: var(--poison) !important;
+}
+
+.fairy {
+  background: var(--fairy) !important;
+}
+
+.ground {
+  background: var(--ground) !important;
+}
+
+.fighting {
+  background: var(--fighting) !important;
+}
+.psychic {
+  background: var(--psychic) !important;
+}
+
+.rock {
+  background: var(--rock) !important;
+}
+.ghost {
+  background: var(--ghost) !important;
+}
+
+.ice {
+  background: var(--ice) !important;
+}
+
+.dragon {
+  background: var(--dragon) !important;
+}
+
+.dark {
+  background: var(--dark) !important;
+}
+
+.steel {
+  background: var(--steel) !important;
 }

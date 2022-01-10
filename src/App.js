@@ -1,54 +1,26 @@
+import React from 'react';
 import './App.css';
-import React, { useState, useEffect } from 'react';
-import PokemonThumbnail from './components/PokemonThumbnail';
-import { Container,Button,CardGroup, Col, Row } from 'reactstrap';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import Navbar from "./components/Navbar";
+import Pokemons from './pages/Pokemons';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
-
-  const [allPokemons, setAllPokemons] = useState([]);
-  const [loadMore, setLoadMore] = useState('https://pokeapi.co/api/v2/pokemon?limit=20')
-
-  const getAllPokemons = async () => {
-    const res = await fetch(loadMore)
-    const data = await res.json()
-
-    setLoadMore(data.next)
-
-    function createPokemonObject(result) {
-      result.forEach( async (pokemon) => {
-        const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon.name}`);
-        const data = await res.json()
-
-        setAllPokemons(currentList => [...currentList, data])
-      })
-    }
-    createPokemonObject(data.results) 
-  }
-  useEffect(() => {
-    getAllPokemons()
-  }, [])
-  const Cards = <CardGroup>
-    {allPokemons.map((pokemon, index) => <PokemonThumbnail
-      id={pokemon.id}
-      name={pokemon.name}
-      image={pokemon.sprites.other.dream_world.front_default}
-      type={pokemon.types[0].type.name}
-      key={index} />
-    )}
-  </CardGroup>;
   return (
-    <div className="App">
-      <h1>Pokemon Evolution</h1>
-        <Container>
-          <Row style={{ padding: '30px' }} >
-            {Cards}
-          </Row> 
-        </Container>
-      <Button color='danger' onClick={() => getAllPokemons()}>Load More...</Button>
-
-    </div>
-  );
+    <BrowserRouter>
+    <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route >
+          <Route path="/pokemons" element={<Pokemons />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App

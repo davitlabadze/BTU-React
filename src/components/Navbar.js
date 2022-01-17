@@ -32,6 +32,12 @@ const Navbar = () => {
                                 <p>Project</p>
                             </Link> 
                         </li>
+
+                        <li className="nav-item">
+                            <Link to="/movies" className="nav-link">
+                                <p>Movies</p>
+                            </Link> 
+                        </li>
                     </ul>
                 </div>
             </div>

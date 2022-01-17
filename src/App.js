@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Pokemons from './pages/Pokemons';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Movies from './pages/Movies';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/pokemons" element={<Pokemons />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/movies" element={<Movies />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -7,6 +7,7 @@ import Pokemons from './pages/Pokemons';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Movies from './pages/Movies';
+import MyProjects from './pages/MyProjects';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route >
           <Route path="/pokemons" element={<Pokemons />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/my-projects" element={<MyProjects />} />
           <Route path="/movies" element={<Movies />} />
         </Route>
       </Routes>

@@ -102,3 +102,52 @@ code {
 .tag.red {
   color: red;
 }
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* padding: 20px; */
+  /* margin: 20px; */
+}
+.project-box {
+  margin-top: 150px;
+  width: 700px;
+  height: auto;
+  margin-right: 20px;
+
+  /* transform: translate(-50%, 50%); */
+}
+
+.project-box img {
+  width: 700px;
+  height: auto;
+  /* transform: translate(0%, 50%); */
+}
+.project-box:hover img {
+  webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+  filter: blur(4px);
+}
+
+.project-item {
+  position: absolute;
+}
+
+.project-btn {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  background: transparent;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+  color: black;
+  border-radius: 10px;
+  border: 2px solid red;
+  transform: translate(295%, -350%);
+}
+
+.project-btn:hover {
+  background: black;
+  color: #fff;
+  text-decoration: none;
+}

@@ -10,34 +10,22 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul className="navbar-nav mb-2 mb-lg-0">
+                        
                         <li className="nav-item">
                             <Link to="/" className="nav-link">
-                                <p>Home</p>
+                                <p>About me</p>
                             </Link> 
                         </li>
                         <li className="nav-item">
-                            <Link to="/about" className="nav-link">
-                                <p>About</p>
+                            <Link to="/education" className="nav-link">
+                                <p>Education</p>
                             </Link> 
                         </li>
                         <li className="nav-item ">
-                        <Link to="/my-projects" className="nav-link">
+                            <Link to="/my-projects" className="nav-link">
                                 <p>My Projects</p>
                             </Link>
-                            
                         </li>
-                        
-                        {/* <li className="nav-item">
-                            <Link to="/pokemons" className="nav-link">
-                                <p>Project</p>
-                            </Link> 
-                        </li>
-
-                        <li className="nav-item">
-                            <Link to="/movies" className="nav-link">
-                                <p>Movies</p>
-                            </Link> 
-                        </li> */}
                     </ul>
                 </div>
             </div>
